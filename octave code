@@ -1,0 +1,18 @@
+% matriz A
+A = [52 20 25;
+     30 50 20;
+     18 30 55];
+
+% vector b
+b = [4800; 
+     5810; 
+     5690];
+
+% inversa de A
+A_inv = inv(A);
+
+% calculando X=inv(A)*b
+X = A_inv * b;
+
+% resultado
+disp(X);
